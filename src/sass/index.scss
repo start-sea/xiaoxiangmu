@@ -202,6 +202,7 @@ $r:right;$l:left;
                 .last{
                     &:hover +.ying2{
                         display: block;
+                        z-index: 9999;
                     }
                 }
             }
@@ -212,7 +213,7 @@ main{
     background: #f6f6f6;
 }
 .dao{
-    width: 1200px;height: 380px;
+    width: $w;height: 380px;
     margin: auto;
     // background: yellow;
     position: relative;
@@ -273,10 +274,11 @@ main{
     }
 }
 .jrpp{
-    width: 1200px;height: 310px;
+    width: $w;height: 310px;
     margin:auto;
     margin-top: 30px;
     padding: 20px;
+    background: #fff;
     // background: green;
     .jrppchilda{
         height: 45px;
@@ -320,11 +322,12 @@ main{
             li{
                 width: 278px;height: 170px;
                 float: left;
-                margin-right: 12px;;
+                margin: 0 6px;
                 .brand-status{
                     a{
                         .brand-pic{
                             width: 278px;height: 130px;
+                            overflow: hidden;
                             position: relative;
                             img{
                                 width: 278px;height: 130px;
@@ -401,5 +404,114 @@ main{
                 }
             }
         }
+    }
+}
+.jrxp{
+    width: $w;
+    margin: auto;
+    margin-top: 30px;
+    background: #fff;
+    padding: 20px;
+    .jrppchilda{
+        height: 45px;
+        // background: yellow;
+        // padding: 20px;
+        div{
+            height: 35px;
+            float: left;
+            h2{
+                font-family: "微软雅黑","宋体";
+                font-size: 20px;
+                line-height: 32px;
+                float: left;
+            }
+            span{
+                font-family: "微软雅黑","宋体";
+                font-size: 16px;
+                line-height: 32px;
+                float: left;
+                margin-left: 10px;
+                color: #bbbbbb;
+            }
+        }
+        .fr{
+            float:right;
+            margin-right: 6px;
+            .active{
+                a{
+                    text-decoration: none;
+                    color: #bbbbbb;
+                    span{
+                        font-size: 12px;
+                        color: #666666;
+                    }
+                }
+            }
+        }
+    }
+    .jrxpchild{
+        display: block;
+        ul{
+            li{
+                width: 230px;
+                height:290px;
+                float: left;
+                margin: 0 6px 12px 0;
+                padding-top: 6px;
+                border: 1px solid #fff;
+                .buy{
+                    width: 232px;height: 270px;
+                    .good-pic{
+                        width: 220px;
+                        padding-left: 4px;
+                        .pic-img{
+                            a{
+                                img{
+                                    max-width: 220ox;max-height: 220px;
+                                }
+                            }
+                        }
+                    }
+                    .good-price{
+                        width: 220px;height: 32px;
+                        padding: 0px 10px 0 8px;
+                        .price-current{
+                            color: #ff464e;
+                            font-size: 18px;
+                            font-family: arial;
+                        }
+                        .des-other{
+                            margin: 2px 0 0 5px;
+                            color: #bbbbbb;
+                            font-size: 12px;
+                            text-decoration: line-through;
+                        }
+                    }
+                    .good-title{
+                        width: 220px;height: 18px;
+                        line-height: 18px;
+                        padding: 0 10px 0 10px;
+                        a{
+                            max-width: 160px;
+                            color: #333;
+                            font-size: 12px;
+                        }
+                        span{
+                            float: right;
+                            color: #bbbbbb;
+                            font-size: 12px;
+                            margin-right: 6px;
+                        }
+                    }
+                }
+                &:hover{
+                    border:1px solid #bbbbbb;
+                }
+            }
+            .clear{
+                clear: both;
+            }
+        }
+        
     }
 }

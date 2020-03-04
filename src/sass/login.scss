@@ -1,0 +1,156 @@
+header{
+    height: 80px;
+    border-bottom: 4px solid #ff464e;
+    background: #ffffff;
+    // margin-bottom: 20px;
+    section{
+        width: 980px;height: 76px;
+        margin: auto;
+        // background: gold;
+        .qiang{
+            float: right;
+            margin: 12px 4px 0 0;
+        }
+    }
+}
+main{
+    padding-top: 20px;
+    .main-login{
+        width: 980px;height: 573px;
+        margin: 0px auto;
+        display: block;
+        
+        section{
+            width:980px;height: 455px;
+            border: 1px solid #e2e2e2;
+            background: #ffffff;
+            .title{
+                width: 978px;height: 65px;
+                padding: 20px 50px;
+                border-bottom: 1px solid #e2e2e2;
+                .hd{
+                    width: 100px;height: 24px;
+                    font-size: 16px;
+                    color: #ff464e;
+                    margin-right: 10px;
+                    padding-right: 20px;
+                }
+                .tips{
+                    width: 168px;height: 18px;
+                    font-size: 12px;
+                    color: #666666;
+                    margin: 3px 0 0;
+                }
+                .other{
+                    color: #999999;
+                    font-size: 14px;
+                    float: right;
+                    a{
+                        color: blue;
+                    }
+                }
+            }
+            .login-center {
+                padding: 30px 80px 0 80px;
+                width: 978px;
+                height: auto;
+                overflow: hidden;
+                .content-landing {
+                    width: 450px;
+                    float: left;
+                    display: inline;
+                    #login{
+                        .login_list{
+                            li{
+                                height: 70px;
+                                // margin-left: 80px;
+                                padding-bottom: 25px;
+                                .normal {
+                                    width: 80px;
+                                    text-align: right;
+                                    float: left;
+                                    display: inline;
+                                    height: 20px;
+                                    margin-top: 8px;
+                                    font-size: 14px;
+                                }
+                                .box_border {
+                                    border: 1px solid #c6c6c6;
+                                    width: 270px;height: 40px;
+                                    float: left;
+                                    input {
+                                        border: 0;
+                                        width: 226px;height: 38px;
+                                        padding: 12px 0 12px 5px;
+                                        font-size: 12px;
+                                    }
+                                }
+                                .chex {
+                                    width: 280px;
+                                    float: left;
+                                    span {
+                                        color: #5e5e5e;
+                                        float: left;
+                                        font-size: 12px;
+                                    }
+                                    .forget {
+                                        float: right;
+                                        color: #999;
+                                        font-size: 12px;
+                                    }
+                                }
+                                .btn {
+                                    float: left;
+                                    width: 260px;
+                                    display: inline;
+                                    .sub {
+                                        width: 260px;
+                                        height: 40px;
+                                        cursor: pointer;
+                                        font-size: 16px;
+                                        border: none;
+                                        background: #ff464e;
+                                        color: #ffffff;
+                                    }
+                                }
+                                .union-login {
+                                    float: left;
+                                    width: 142px;
+                                    .union-title {
+                                        height: 16px;
+                                        line-height: 16px;
+                                        position: relative;
+                                        font-size: 12px;
+                                    }
+                                }
+                                .quick{
+                                    font-size: 14px;
+                                    color: #666666;
+                                }
+                            }
+                        }
+                    }
+                }
+                .login-l-img {
+                    /* margin: 20px 0 0 0; */
+                    overflow: hidden;
+                    width: 358px!important;
+                    text-align: right;
+                    float: right;
+                    display: inline;
+                }
+            }
+        }
+        .foot-tips{
+            margin: 40px;
+            font-size: 12px;
+            color: #666666;
+            text-align: center;
+            a{
+                font-size: 12px;
+                color: #666666;
+            }
+        }
+        
+    }
+}

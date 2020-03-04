@@ -232,6 +232,7 @@
 
 .header .headerchildb aside ul .last:hover + .ying2 {
   display: block;
+  z-index: 9999;
 }
 
 main {
@@ -317,6 +318,7 @@ main {
   margin: auto;
   margin-top: 30px;
   padding: 20px;
+  background: #fff;
 }
 
 .jrpp .jrppchilda {
@@ -365,12 +367,13 @@ main {
   width: 278px;
   height: 170px;
   float: left;
-  margin-right: 12px;
+  margin: 0 6px;
 }
 
 .jrpp .jrppchildb .brand_data li .brand-status a .brand-pic {
   width: 278px;
   height: 130px;
+  overflow: hidden;
   position: relative;
 }
 
@@ -464,4 +467,127 @@ main {
 .jrpp .jrppchildb .brand_logo li img {
   width: 70px;
   height: 35px;
+}
+
+.jrxp {
+  width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  background: #fff;
+  padding: 20px;
+}
+
+.jrxp .jrppchilda {
+  height: 45px;
+}
+
+.jrxp .jrppchilda div {
+  height: 35px;
+  float: left;
+}
+
+.jrxp .jrppchilda div h2 {
+  font-family: "微软雅黑","宋体";
+  font-size: 20px;
+  line-height: 32px;
+  float: left;
+}
+
+.jrxp .jrppchilda div span {
+  font-family: "微软雅黑","宋体";
+  font-size: 16px;
+  line-height: 32px;
+  float: left;
+  margin-left: 10px;
+  color: #bbbbbb;
+}
+
+.jrxp .jrppchilda .fr {
+  float: right;
+  margin-right: 6px;
+}
+
+.jrxp .jrppchilda .fr .active a {
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
+.jrxp .jrppchilda .fr .active a span {
+  font-size: 12px;
+  color: #666666;
+}
+
+.jrxp .jrxpchild {
+  display: block;
+}
+
+.jrxp .jrxpchild ul li {
+  width: 230px;
+  height: 290px;
+  float: left;
+  margin: 0 6px 12px 0;
+  padding-top: 6px;
+  border: 1px solid #fff;
+}
+
+.jrxp .jrxpchild ul li .buy {
+  width: 232px;
+  height: 270px;
+}
+
+.jrxp .jrxpchild ul li .buy .good-pic {
+  width: 220px;
+  padding-left: 4px;
+}
+
+.jrxp .jrxpchild ul li .buy .good-pic .pic-img a img {
+  max-width: 220ox;
+  max-height: 220px;
+}
+
+.jrxp .jrxpchild ul li .buy .good-price {
+  width: 220px;
+  height: 32px;
+  padding: 0px 10px 0 8px;
+}
+
+.jrxp .jrxpchild ul li .buy .good-price .price-current {
+  color: #ff464e;
+  font-size: 18px;
+  font-family: arial;
+}
+
+.jrxp .jrxpchild ul li .buy .good-price .des-other {
+  margin: 2px 0 0 5px;
+  color: #bbbbbb;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.jrxp .jrxpchild ul li .buy .good-title {
+  width: 220px;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 10px 0 10px;
+}
+
+.jrxp .jrxpchild ul li .buy .good-title a {
+  max-width: 160px;
+  color: #333;
+  font-size: 12px;
+}
+
+.jrxp .jrxpchild ul li .buy .good-title span {
+  float: right;
+  color: #bbbbbb;
+  font-size: 12px;
+  margin-right: 6px;
+}
+
+.jrxp .jrxpchild ul li:hover {
+  border: 1px solid #bbbbbb;
+}
+
+.jrxp .jrxpchild ul .clear {
+  clear: both;
 }
