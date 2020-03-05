@@ -116,23 +116,23 @@
   color: #ff464e;
 }
 
-.header .headerchilda {
+.headera .headerchilda {
   width: 1200px;
   height: 85px;
   margin: auto;
   padding: 16px 0px;
 }
 
-.header .headerchilda aside:nth-child(1) {
+.headera .headerchilda aside:nth-child(1) {
   float: left;
 }
 
-.header .headerchilda aside:nth-child(2) {
+.headera .headerchilda aside:nth-child(2) {
   float: left;
   margin-left: 200px;
 }
 
-.header .headerchilda aside:nth-child(3) {
+.headera .headerchilda aside:nth-child(3) {
   float: right;
   width: 273px;
   height: 35px;
@@ -140,14 +140,14 @@
   position: relative;
 }
 
-.header .headerchilda aside:nth-child(3) span:nth-child(2) {
+.headera .headerchilda aside:nth-child(3) span:nth-child(2) {
   width: 200px;
   height: 35px;
   line-height: 52px;
   float: right;
 }
 
-.header .headerchilda aside:nth-child(3) span:nth-child(2) input {
+.headera .headerchilda aside:nth-child(3) span:nth-child(2) input {
   float: right;
   border: none;
   width: 190px;
@@ -157,85 +157,87 @@
   font-size: 12px;
 }
 
-.header .headerchilda aside:nth-child(3) span:nth-child(1) {
+.headera .headerchilda aside:nth-child(3) span:nth-child(1) {
   float: right;
   background: #ff464e;
   height: 35px;
 }
 
-.header .headerchilda aside:nth-child(3) span:nth-child(1) .smt {
+.headera .headerchilda aside:nth-child(3) span:nth-child(1) .smt {
   width: 37px;
   height: 35px;
   border: none;
   background: url(../images/total/header-total.gif?20160112) no-repeat;
 }
 
-.header .headerchilda aside:nth-child(3) img {
+.headera .headerchilda aside:nth-child(3) img {
   position: absolute;
   right: -74px;
   top: 100px;
 }
 
-.header .headerchildb {
+.headera .headerchildb {
   width: 100%;
   height: 40px;
   border-bottom: 2px solid #ff464e;
 }
 
-.header .headerchildb aside {
+.headera .headerchildb aside {
   width: 1200px;
   height: 40px;
   line-height: 40px;
   margin: auto;
 }
 
-.header .headerchildb aside ul {
+.headera .headerchildb aside ul {
   float: left;
   height: 38px;
   position: relative;
 }
 
-.header .headerchildb aside ul li {
+.headera .headerchildb aside ul li {
   float: left;
   height: 38px;
 }
 
-.header .headerchildb aside ul li a {
+.headera .headerchildb aside ul li a {
   display: inline;
   padding: 10px 24px 0;
+  font-size: 14px;
+  color: #333333;
 }
 
-.header .headerchildb aside ul li a:hover {
+.headera .headerchildb aside ul li a:hover {
   color: #ff464e;
   text-decoration: none;
 }
 
-.header .headerchildb aside ul li:nth-child(1) {
+.headera .headerchildb aside ul li:nth-child(1) {
   background: #ff464e;
   border-radius: 6px 6px 0px 0px;
 }
 
-.header .headerchildb aside ul li:nth-child(1) a {
+.headera .headerchildb aside ul li:nth-child(1) a {
   color: #fff;
 }
 
-.header .headerchildb aside ul li:nth-child(1) a:hover {
+.headera .headerchildb aside ul li:nth-child(1) a:hover {
   color: #fff;
 }
 
-.header .headerchildb aside ul .ying2 {
+.headera .headerchildb aside ul .ying2 {
   display: none;
   position: absolute;
   top: 38px;
   right: -32px;
 }
 
-.header .headerchildb aside ul .last:hover + .ying2 {
+.headera .headerchildb aside ul .last:hover + .ying2 {
   display: block;
   z-index: 9999;
 }
 
-main {
+.index-main {
   background: #f6f6f6;
 }
 

@@ -15,32 +15,33 @@ header section .qiang {
   margin: 12px 4px 0 0;
 }
 
-main {
+.loginmain {
   padding-top: 20px;
+  background: #f6f6f6;
 }
 
-main .main-login {
+.loginmain .main-login {
   width: 980px;
   height: 573px;
   margin: 0px auto;
   display: block;
 }
 
-main .main-login section {
+.loginmain .main-login section {
   width: 980px;
   height: 455px;
   border: 1px solid #e2e2e2;
   background: #ffffff;
 }
 
-main .main-login section .title {
+.loginmain .main-login section .title {
   width: 978px;
   height: 65px;
   padding: 20px 50px;
   border-bottom: 1px solid #e2e2e2;
 }
 
-main .main-login section .title .hd {
+.loginmain .main-login section .title .hd {
   width: 100px;
   height: 24px;
   font-size: 16px;
@@ -49,7 +50,7 @@ main .main-login section .title .hd {
   padding-right: 20px;
 }
 
-main .main-login section .title .tips {
+.loginmain .main-login section .title .tips {
   width: 168px;
   height: 18px;
   font-size: 12px;
@@ -57,35 +58,35 @@ main .main-login section .title .tips {
   margin: 3px 0 0;
 }
 
-main .main-login section .title .other {
+.loginmain .main-login section .title .other {
   color: #999999;
   font-size: 14px;
   float: right;
 }
 
-main .main-login section .title .other a {
+.loginmain .main-login section .title .other a {
   color: blue;
 }
 
-main .main-login section .login-center {
+.loginmain .main-login section .login-center {
   padding: 30px 80px 0 80px;
   width: 978px;
   height: auto;
   overflow: hidden;
 }
 
-main .main-login section .login-center .content-landing {
+.loginmain .main-login section .login-center .content-landing {
   width: 450px;
   float: left;
   display: inline;
 }
 
-main .main-login section .login-center .content-landing #login .login_list li {
+.loginmain .main-login section .login-center .content-landing #login .login_list li {
   height: 70px;
   padding-bottom: 25px;
 }
 
-main .main-login section .login-center .content-landing #login .login_list li .normal {
+.loginmain .main-login section .login-center .content-landing #login .login_list li .normal {
   width: 80px;
   text-align: right;
   float: left;
@@ -95,14 +96,14 @@ main .main-login section .login-center .content-landing #login .login_list li .n
   font-size: 14px;
 }
 
-main .main-login section .login-center .content-landing #login .login_list li .box_border {
+.loginmain .main-login section .login-center .content-landing #login .login_list li .box_border {
   border: 1px solid #c6c6c6;
   width: 270px;
   height: 40px;
   float: left;
 }
 
-main .main-login section .login-center .content-landing #login .login_list li .box_border input {
+.loginmain .main-login section .login-center .content-landing #login .login_list li .box_border input {
   border: 0;
   width: 226px;
   height: 38px;
@@ -110,30 +111,30 @@ main .main-login section .login-center .content-landing #login .login_list li .b
   font-size: 12px;
 }
 
-main .main-login section .login-center .content-landing #login .login_list li .chex {
+.loginmain .main-login section .login-center .content-landing #login .login_list li .chex {
   width: 280px;
   float: left;
 }
 
-main .main-login section .login-center .content-landing #login .login_list li .chex span {
+.loginmain .main-login section .login-center .content-landing #login .login_list li .chex span {
   color: #5e5e5e;
   float: left;
   font-size: 12px;
 }
 
-main .main-login section .login-center .content-landing #login .login_list li .chex .forget {
+.loginmain .main-login section .login-center .content-landing #login .login_list li .chex .forget {
   float: right;
   color: #999;
   font-size: 12px;
 }
 
-main .main-login section .login-center .content-landing #login .login_list li .btn {
+.loginmain .main-login section .login-center .content-landing #login .login_list li .btn {
   float: left;
   width: 260px;
   display: inline;
 }
 
-main .main-login section .login-center .content-landing #login .login_list li .btn .sub {
+.loginmain .main-login section .login-center .content-landing #login .login_list li .btn .sub {
   width: 260px;
   height: 40px;
   cursor: pointer;
@@ -143,24 +144,24 @@ main .main-login section .login-center .content-landing #login .login_list li .b
   color: #ffffff;
 }
 
-main .main-login section .login-center .content-landing #login .login_list li .union-login {
+.loginmain .main-login section .login-center .content-landing #login .login_list li .union-login {
   float: left;
   width: 142px;
 }
 
-main .main-login section .login-center .content-landing #login .login_list li .union-login .union-title {
+.loginmain .main-login section .login-center .content-landing #login .login_list li .union-login .union-title {
   height: 16px;
   line-height: 16px;
   position: relative;
   font-size: 12px;
 }
 
-main .main-login section .login-center .content-landing #login .login_list li .quick {
+.loginmain .main-login section .login-center .content-landing #login .login_list li .quick {
   font-size: 14px;
   color: #666666;
 }
 
-main .main-login section .login-center .login-l-img {
+.loginmain .main-login section .login-center .login-l-img {
   /* margin: 20px 0 0 0; */
   overflow: hidden;
   width: 358px !important;
@@ -169,14 +170,14 @@ main .main-login section .login-center .login-l-img {
   display: inline;
 }
 
-main .main-login .foot-tips {
+.loginmain .main-login .foot-tips {
   margin: 40px;
   font-size: 12px;
   color: #666666;
   text-align: center;
 }
 
-main .main-login .foot-tips a {
+.loginmain .main-login .foot-tips a {
   font-size: 12px;
   color: #666666;
 }
