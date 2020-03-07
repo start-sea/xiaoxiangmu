@@ -1,192 +1,90 @@
 .list-main{
     margin: 0 !important;
-    background: #f6f6f6;
-    .listnav{
-        // width: 1200px;
-        margin: auto;
-        background: #ffffff;
-        .sub-nav{
-            width: 1200px;
-            height: 50px;
-            line-height: 50px;
-            margin: auto;
-            ul{
-                li{
-                    height: 50px;
-                    float: left;
-                    padding-right: 30px;
-                    a{
-                        font-size: 14px;
-                        color: #5e5e5e;
-                        &:hover{
-                            color: #ff464e;
-                            text-decoration: none;
-                        }
-                    }
+    // background: #f6f6f6;
+    .brand_bar{
+        height: 200px;
+        // margin-bottom: 20px;
+        ul{
+            height: 200px;
+            margin-bottom: 0 !important;
+            li{
+                height: 200px;
+                position: relative;
+                img{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
                 }
             }
         }
-    }
-    .brand_bar{
-        height: 200px;
-        margin-bottom: 20px;
     }
     .main-list{
         width: 1200px;
         margin: auto;
-        .brand-normal {
-            background: #fff;
-            margin-bottom: 20px;
-            padding: 0 2px 20px 6px;
-            .brand-title {
-                height: 88px;
-                overflow: hidden;
-                cursor: pointer;
-                .brand_logo {
-                    width: 100px;
-                    height: 50px;
-                    margin-top: 20px;
-                    vertical-align: top;
-                    margin-left: 10px;
-                }
-                .brand_con {
-                    display: inline-block;
-                    margin-left: 10px;
-                    margin-top: 20px;
-                    line-height: 28px;
-                    .brnad_title {
-                        font-size: 20px;
-                        color: #333;
-                    }
-                    p {
-                        font-size: 14px;
-                        color: #ff464e;
-                    }
-                }
-                .brand_right_sec {
-                    margin-top: 10px;
-                    text-align: right;
-                    float: right;
-                    width: 200px;
-                    line-height: 32px;
-                    padding-right: 20px;
-                    .brand_limit_time{
-                        font-size: 12px;
-                        color: #333333;
-                        i{
-                            margin-left: 4px;
-                            font-style: normal;
-                        }
-                    }
-                    .go_brand{
-                        font-size: 12px;
-                        color: #ff464e;
-                        border: 1px solid #ff464e;
-                        border-radius: 12px;
-                        padding: 4px 18px;
-                    }
-                }
-            }
-            .goods-list{
-                width: 1190px;max-height: 600px;
-                margin-left: 8px;
-                overflow: hidden;
-                li{
-                    width: 230px;height: 290px;
-                    float: left;
-                    margin: 0 6px 12px 0;
-                    padding-top: 6px;
-                    border: 1px solid #fff;
-                    .list-good{
-                        width: 232px;
-                        position: relative;
-                        .good-pic{
-                            width: 220px;height: 220px;
-                            padding-left: 4px;
-                            position: relative;
-                            .pic-img{
-                                width: 220px;height: 220px;
-                                text-align: center;
-                                overflow: hidden;
-                                a{
-                                    color: #5e5e5e;
-                                    text-decoration: none;
-                                    .lazy{
-                                        max-width: 220px;
-                                        max-height: 220px;
-                                    }
-                                }
-                            }
-                        }
-                        .good-price{
-                            width: 220px;height: 32px;
-                            line-height: 36px;
-                            position: relative;
-                            padding: 0 10px 0px 8px;
-                            float: left;
-                            .price-current{
-                                font-size: 18px;
-                                font-family: Arial;
-                                color: #ff464e;
-                                float: left;
-                            }
-                            .des-other{
-                                margin: 2px 0 0 5px;
-                                float: left;
-                                .price-old{
-                                    font-size: 14px;
-                                    color: #bbbbbb;
-                                    text-decoration: line-through;
-                                }
-                                
-                            }
-                        }
-                        .good-title{
-                            width: 220px;height: 18px;
-                            line-height: 18px;
-                            padding: 0 10px 0 10px;
-                            font-weight: normal;
-                            color: #333333;
-                            margin-bottom: 12px;
-                            position: relative;
+        padding-top: 25px;
+        .listul{
+            width: 1200px;
+            clear: both;
+            li{
+                width: 230px;
+                height: 290px;
+                float: left;
+                margin: 0 6px 12px 0;
+                padding-top: 6px;
+                border: 1px solid #fff;
+                .buy{
+                    width: 232px;height: 270px;
+                    .good-pic{
+                        width: 220px;
+                        padding-left: 4px;
+                        .pic-img{
                             a{
-                                max-width: 160px;
-                                overflow: hidden;
-                                font-size: 12px;
-                            }
-                            .btn{
-                                a{
-                                    .sold{
-                                        height: 18px;
-                                        color: #bbbbbb;
-                                        position: absolute;
-                                        top: 38px;
-                                        right: 6px;
-                                    }
+                                img{
+                                    max-width: 220ox;max-height: 220px;
                                 }
                             }
                         }
-                        .my-like{
-                            width: 26px;height: 26px;
-                            border: 1px solid #f4f4f4;
-                            border-radius: 15px;
-                            position: absolute;
-                            top: 10px;
-                            right: 22px;
-                            display: none;
+                    }
+                    .good-price{
+                        width: 220px;height: 32px;
+                        padding: 0px 10px 0 8px;
+                        .price-current{
+                            color: #ff464e;
+                            font-size: 18px;
+                            font-family: arial;
+                        }
+                        .des-other{
+                            margin: 2px 0 0 5px;
+                            color: #bbbbbb;
+                            font-size: 12px;
+                            text-decoration: line-through;
                         }
                     }
-                    &:hover{
-                        border: 1px solid #f6f6f6;
-                        .list-good{
-                            .my-like{
-                                display: block;
-                            }
+                    .good-title{
+                        width: 220px;height: 18px;
+                        line-height: 18px;
+                        padding: 0 10px 0 10px;
+                        a{
+                            max-width: 160px;
+                            color: #333;
+                            font-size: 12px;
+                        }
+                        span{
+                            float: right;
+                            color: #bbbbbb;
+                            font-size: 12px;
+                            margin-right: 6px;
                         }
                     }
-                    
                 }
-            }
+                &:hover{
+                    border:1px solid #bbbbbb;
+                }
+           }
+           div:nth-last-child(1){
+            clear: both;
         }
+       }
     }
 }

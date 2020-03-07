@@ -96,6 +96,10 @@ const serverHandler = () => {
             {
                 source: '/gx2',
                 target: 'http://127.0.0.1/xxx.php'
+            },
+            {
+                source:'/lunbo',
+                target:'http://www.juanpi.com/Index/getIndexAd/ugctag/c4'
             }
         ]
     })) // 开启服务器

@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>详情页</title>
+    <title>列表页</title>
     <link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.css">
     <!-- <link rel="stylesheet" href="../css/index.css"> -->
     <link rel="stylesheet" href="../sass/common.css">
     <link rel="stylesheet" href="../sass/index.css">
     <link rel="stylesheet" href="../lib/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="../sass/list.css">
+    <link rel="stylesheet" href="../lib/xlP/fenye.css">
 </head>
 <body>
     <header>
@@ -48,7 +49,7 @@
             <section class="headerchilda">
                 <aside>
                      <a href="">
-                        <img src="../images/logo.jpg" alt="">
+                        <img src="../images/9.9logo.jpg" alt="">
                     </a>
                 </aside>
                 <aside>
@@ -67,9 +68,9 @@
             <section class="headerchildb">
                 <aside>
                     <ul>
-                        <li><a href="">首页</a></li>
+                        <li><a href="./index.html">首页</a></li>
                         <li><a href="">品牌折扣</a></li>
-                        <li><a href="">9.9包邮</a></li>
+                        <li class="shouye"><a href="">9.9包邮</a></li>
                         <li><a href="">即将上线</a></li>
                         <li class="last"><a href=""><em class="icon-normal icon-phone" id="new-phone"></em>手机版</a></li>
                         <div class="ying2">
@@ -81,83 +82,128 @@
         </section>
     </header>
     <main class="list-main">
-        <aside class="listnav">
-            <section class="sub-nav">
-                <ul>
-                    <li class="active" style="padding-right: 15px;"><a href="//brand.juanpi.com" style="color: #ff464e;">全部品牌</a></li>
-                    <li class="cut-line" style="padding-right: 15px;">｜</li>
-                    <li><a href="//brand.juanpi.com/nvzhuang">女装</a></li>
-                    <li><a href="//brand.juanpi.com/xiezi">鞋子</a></li>
-                    <li><a href="//brand.juanpi.com/nanzhuang">男装</a></li>
-                    <li><a href="//brand.juanpi.com/muying">母婴</a></li>
-                    <li><a href="//brand.juanpi.com/xiangbao">箱包</a></li>
-                    <li><a href="//brand.juanpi.com/shuma">数码电器</a></li>
-                    <li><a href="//brand.juanpi.com/jujia">居家</a></li>
-                    <li><a href="//brand.juanpi.com/wenti">文体</a></li>
-                    <li><a href="//brand.juanpi.com/meizhuang">美妆</a></li>
-                    <li><a href="//brand.juanpi.com/peishi">配饰</a></li>
-                    <li><a href="//brand.juanpi.com/meishi">美食</a></li>
-                </ul>
-            </section>
-        </aside>
         <aside class="brand_bar">
             <ul>
                 <li>
-                <img src="//jp.juancdn.com/juanpi/images/brand/banner_all.jpg?ts=20181022174388" alt=""></li>
+                <img src="//jp.juancdn.com/juanpi/images/brand/banner_jkj.jpg" alt=""></li>
             </ul>
         </aside>
         <aside class="main-list">
-            <div class="brand-normal clear">
-                <div class="brand-title" onclick="goBrand('//brand.juanpi.com/1790483?shop_id=6256086')">
-                    <img class="brand_logo" src="https://goods3.juancdn.com/bao/170601/5/f/592f6bc1ad0a49d16c8b456b_180x90.png?iopcmd=convert&amp;Q=88&amp;dst=png">
-                    <div class="brand_con">
-                        <span class="brnad_title">lazylily女装女装上新专场</span><br>
-                        <p>满2件7折，满3件6折</p>                      </div>
-                    <div class="brand_right_sec">
-                        <span class="left_time brand_limit_time"><i class="i_time" style="display: none">1584324000</i>剩余<i class="d">10</i>天<i class="h">16</i>时<i class="m">54</i>分<i class="s">27</i>秒</span><br>
-                        <span class="go_brand">进入专场<span class="brand_arrow_more"></span></span>
-                    </div>
-                </div>
-                <ul class="goods-list goods-list-8 clear">
-                    <li re="" gtype="3" g_type="3" id="162327698" class="">
-                        <div class="list-good buy">
-                            <div class="good-pic">
-                                <div class="pic-img">
-                                    <a href="//shop.juanpi.com/deal/162327698" target="_blank" data-value="brand_goods#1_1">
-                                        <img src="https://goods2.juancdn.com/goods/180801/2/5/5b61768733b08907e72db22f_800x800.jpg?imageMogr2/thumbnail/285x285!/quality/88!/format/jpg" class="lazy" d-src="https://goods2.juancdn.com/goods/180801/2/5/5b61768733b08907e72db22f_800x800.jpg?imageMogr2/thumbnail/285x285!/quality/88!/format/jpg" alt="V领长袖波浪边礼服裙" style="display: inline;"></a>
-                                </div>
-                            </div>
-                            <div class="good-price"> 
-                                <span class="price-current">
-                                    <em>￥</em>199
-                                </span> 
-                                <span class="des-other">
-                                    <span class="price-old">
-                                        <em>￥</em>396</span>
-                                </span>
-                            </div>
-                            <h3 class="good-title">
-                                <a href="//shop.juanpi.com/deal/162327698" target="_blank">V领长袖波浪边礼服裙</a>
-                                <div class="btn buy j-buy">
-                                    <a target="_blank" href="//shop.juanpi.com/deal/162327698">
-                                        <span class="sold">剩10天</span>
-                                    </a>
-                                </div>
-                            </h3>
-                            <!-- like -->
-                            <a class="y-like my-like" lkid="162327698" lks="1" data-gtype="3" data-gid="162327698" gtype="3" data-goodscode="29037893" data-saletype="1" title="加入收藏">
-                                <i class="like-ico">
-                                    <span class="heart_left"></span>
-                                    <span class="heart_right"></span></i>
-                            </a>
-                            <!-- end like -->
-
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            <ul class="listul">
+            </ul>
         </aside>
     </main>
+    <div id="page">
+        <ul>
+            <li class="xl-prevPage">上一页</li>
+            <li>1</li>
+            <li class="xl-disabled">...</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li class="xl-active">20</li>
+            <li class="xl-nextPage xl-disabled">下一页</li>
+        </ul>
+    </div>
     <footer>footer</footer>
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <script src="../lib/xlP/xlPaging.js"></script>
+    <script>
+        let list = [];
+        let page = 1;
+        getList()
+        function getList() {
+            $.ajax({
+                url:'http://shop.juanpi.com/gsort',
+                data:{
+                    key:'267',
+                    type:50,
+                    machining:'default',
+                    page_url:'/',
+                    page:page,
+                    zhouyi_ids:'p1_c4_l4_0',
+                    rows:240,
+                },
+                dataType:'jsonp',
+                success: function(res){
+                    console.log(res);
+                    
+                    let str = ''
+                    /*遍历数组*/
+                    res.list.forEach(item => {
+                        str += `
+                        <li id="${item.goods_id}" gtype="${item.gtype}" g_type="${item.type}" is_channel_index="" data-saletype="1" data-goodscode="${item.goods_code}" class="">
+                            <div class="list-good buy">
+                                <div class="good-pic">
+                                    <div class="pic-img">
+                                        <a href="//shop.juanpi.com/deal/${item.goods_id}" target="_blank" data-value="goods1_1">
+                                            <img src="${item.pic_url}" alt="儿童加绒加厚卫衣" style="display: inline;">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="good-price">
+                                    <span class="price-current">
+                                        <em>￥</em>${item.cprice}
+                                    </span>
+                                    <span class="des-other">
+                                        <span class="price-old">
+                                            <em>￥</em>${item.oprice}
+                                        </span>
+                                    </span>
+                                </div>
+                                <h3 class="good-title">
+                                    <a href="//shop.juanpi.com/deal/130620696" target="_blank">${item.title}</a>
+                                    <span class="sold">${item.residue}</span>
+                                </h3>
+                                <a class="y-like my-like" data-gid="130620696" data-saletype="1" data-goodscode="43571199" data-gtype="3" lkid="130620696" lks="1" gtype="3" title="加入收藏">
+                                    <i class="like-ico">
+                                        <span class="heart_left"></span>
+                                        <span class="heart_right"></span>
+                                    </i>
+                                </a>
+                                <div class="two-dime-box">
+                                    <a href="//www.juanpi.com/apps" target="_blank" class="two-iphone-n"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <div class="clear"></div>
+                        `
+                    })
+                    /*渲染到界面*/
+                    $('.list-main > .main-list > .listul').html(str);
+                    list = res.list;
+                }
+            })
+        }
+
+        $("#page").paging({
+                nowPage: 1, // 当前页码,默认为1
+                pageNum: 13, // 总页码
+                buttonNum: 7, //要展示的页码数量，默认为7，若小于5则为5
+                callback: function(num) { //回调函数,num为当前页码
+                    console.log(num);
+                    page = num;
+                    console.log(page);
+                    getList()
+                }
+            });
+
+        /*委托事件实现详情页*/
+        $('.list-main > .main-list > .listul').on('click','li',function(){
+            // console.log($(this).attr('id'));
+            
+            let id = $(this).attr('id');
+            let data = null;
+            for (let i = 0; i < list.length; i++) {
+                if (list[i].goods_id === id) {
+                    data = list[i];
+                    break
+                }
+            }
+            console.log(data);
+            localStorage.setItem('goodsInfo', JSON.stringify(data));
+            window.location.href = './detail.html';
+        })
+    </script>
 </body>
 </html>

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../sass/common.css">
     <link rel="stylesheet" href="../sass/index.css">
     <link rel="stylesheet" href="../lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="../lib/font_qr4dzeruc2/iconfont.css">
+    <link rel="stylesheet" href="../lib/xlP/fenye.css">
 </head>
 <body>
     <script src="../lib/swiper/js/swiper.min.js"></script>
@@ -67,9 +69,9 @@
             <section class="headerchildb">
                 <aside>
                     <ul>
-                        <li><a href="">首页</a></li>
+                        <li class="shouye"><a href="">首页</a></li>
                         <li><a href="">品牌折扣</a></li>
-                        <li><a href="">9.9包邮</a></li>
+                        <li><a href="./list.html">9.9包邮</a></li>
                         <li><a href="">即将上线</a></li>
                         <li class="last"><a href=""><em class="icon-normal icon-phone" id="new-phone"></em>手机版</a></li>
                         <div class="ying2">
@@ -86,24 +88,24 @@
                 <dl>
                     <dd>
                         <a href="//www.juanpi.com/nvzhuang">
-                            <i class="ct-icon ct-icon-nvzhuang"></i> 女装
+                            <i class="iconfon icon-lianyiqun"></i> 女装
                             <em class="ct-line"></em>
                         </a>
                     </dd>
                     <dd>
                         <a href="//www.juanpi.com/nanzhuang">
-                            <i class="ct-icon ct-icon-nanzhuang"></i> 男装
+                            <i class="ct-icon icon-chenshan"></i> 男装
                         </a>
                     </dd>
                     <dd>
                         <a href="//www.juanpi.com/xiezi">
-                            <i class="ct-icon ct-icon-xiezi"></i> 鞋子
+                            <i class="ct-icon icon-xiezi101"></i> 鞋子
                             <em class="ct-line"></em>
                         </a>
                     </dd>
                     <dd>
                         <a href="//www.juanpi.com/xiangbao">
-                            <i class="ct-icon ct-icon-xiangbao"></i> 箱包
+                            <i class="ct-icon icon-baobao_huaban"></i> 箱包
                         </a>
                     </dd>
                     <dd>
@@ -114,7 +116,7 @@
                     </dd>
                     <dd>
                         <a href="//www.juanpi.com/meizhuang">
-                            <i class="ct-icon ct-icon-meizhuang"></i> 美妆
+                            <i class="ct-icon icon-meizhuang"></i> 美妆
                         </a>
                     </dd>
                     <dd>
@@ -130,39 +132,40 @@
                     </dd>
                     <dd>
                         <a href="//www.juanpi.com/wenti">
-                            <i class="ct-icon ct-icon-wenti"></i> 文体
+                            <i class="ct-icon icon-bi"></i> 文体
                             <em class="ct-line"></em>
                         </a>
                     </dd>
                     <dd>
                         <a href="//www.juanpi.com/meishi">
-                            <i class="ct-icon ct-icon-meishi"></i> 美食
+                            <i class="ct-icon icon-iconfontmeishi0                            "></i> 美食
                         </a>
                     </dd>
                     <dd>
                         <a href="//www.juanpi.com/shuma">
-                            <i class="ct-icon ct-icon-shuma"></i> 数码
+                            <i class="ct-icon icon-shuma"></i> 数码
                             <em class="ct-line"></em>
                         </a>
                     </dd>
                     <dd>
                         <a href="//www.juanpi.com/dianqi">
-                            <i class="ct-icon ct-icon-dianqi"></i> 电器
+                            <i class="ct-icon icon-dianqi"></i> 电器
                         </a>
                     </dd>
                     <dd class="border-none">
                         <a href="//www.juanpi.com/neiyi">
-                            <i class="ct-icon ct-icon-neiyi"></i> 内衣
+                            <i class="ct-icon icon-yundongneiyi                            "></i> 内衣
                             <em class="ct-line"></em>
                         </a>
                     </dd>
                     <dd class="border-none">
                         <a href="//www.juanpi.com/peishi">
-                            <i class="ct-icon ct-icon-peishi"></i> 配饰
+                            <i class="ct-icon icon-peishi"></i> 配饰
                         </a>
                     </dd>
                 </dl>
             </section>
+            <!-- 轮播图 -->
             <section class="daochildb">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
@@ -173,9 +176,11 @@
                             <img src="https://goods8.juancdn.com/bao/200302/f/2/5e5c6cbd33b0892be362099f_700x360.jpg?imageMogr2/quality/88!/format/jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://goods8.juancdn.com/bao/200227/f/e/5e5794edb6f8ea6f7f75943c_700x360.jpg?imageMogr2/quality/88!/format/jpg" alt="">
+                            <img src="https://goods1.juancdn.com/bao/200303/0/e/5e5e07bab6f8ea5fbe3857df_700x360.jpg" alt="">
                         </div>
                     </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </section>
             <section class="daochildc">
@@ -329,12 +334,12 @@
             </section>
             <section class="jrxpchild">
                 <ul>
-                    <li id="130620696" gtype="3" g_type="3" is_channel_index="" data-saletype="1" data-goodscode="43571199" class="">
+                    <!-- <li id="130620696" gtype="3" g_type="3" is_channel_index="" data-saletype="1" data-goodscode="43571199" class="">
                         <div class="list-good buy">
                             <div class="good-pic">
                                 <div class="pic-img">
                                     <a href="//shop.juanpi.com/deal/130620696" target="_blank" data-value="goods1_1">
-                                        <!--goods_sort 表示该页的第几个商品-->
+                                        goods_sort 表示该页的第几个商品
                                         <img src="https://goods7.juancdn.com/goods/191230/c/6/5e09b46833b0891bf86223c6_800x800.jpg?iopcmd=thumbnail&amp;type=11&amp;height=310&amp;width=310%7Ciopcmd=convert&amp;Q=88&amp;dst=jpg" class="lazy" d-src="https://goods7.juancdn.com/goods/191230/c/6/5e09b46833b0891bf86223c6_800x800.jpg?iopcmd=thumbnail&amp;type=11&amp;height=310&amp;width=310%7Ciopcmd=convert&amp;Q=88&amp;dst=jpg" alt="儿童加绒加厚卫衣" style="display: inline;">
                                     </a>
                                 </div>
@@ -352,35 +357,204 @@
                             <h3 class="good-title">
                                 <a href="//shop.juanpi.com/deal/130620696" target="_blank">儿童加绒加厚卫衣</a>
                                 <span class="sold">剩8天</span>
-                            </h3><!--抢光了--><!--收藏-->
+                            </h3>抢光了收藏
                             <a class="y-like my-like" data-gid="130620696" data-saletype="1" data-goodscode="43571199" data-gtype="3" lkid="130620696" lks="1" gtype="3" title="加入收藏">
                                 <i class="like-ico">
                                     <span class="heart_left"></span>
                                     <span class="heart_right"></span>
                                 </i>
-                            </a><!--收藏-->
+                            </a>收藏
                             <div class="two-dime-box">
                                 <a href="//www.juanpi.com/apps" target="_blank" class="two-iphone-n"></a>
                             </div>
                         </div>
-                    </li>
+                    </li> -->
                     <div class="clear"></div>
                 </ul>
+                
             </section>
         </aside>
     </main>
-    <footer>3</footer>
-    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <div id="page">
+        <ul>
+            <li class="xl-prevPage">上一页</li>
+            <li>1</li>
+            <li class="xl-disabled">...</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li class="xl-active">20</li>
+            <li class="xl-nextPage xl-disabled">下一页</li>
+        </ul>
+    </div>
+    <footer>
+        <aside>页脚</aside>
+    </footer>
+    <!-- <script src="../lib/jquery/dist/jquery.min.js"></script> -->
+    <script src="../lib/jquery/dist/jquery.js"></script>
     <script src="../js/index.js"></script>
+    <script src="../lib/xlP/xlPaging.js"></script>
+    
     <script>
+        /*
+        http://shop.juanpi.com/gsort?
+        key=pcshouye
+        &type=1
+        &machining=default
+        &dtype=JSONP
+        &page_url=%2F
+        &page=1
+        &zhouyi_ids=p1_c4_l4_0
+        &rows=240
+        &callback=gsort_callback
+        */
+       let list = [];
+       let page = 1;
+        getList()
+        function getList() {
+            $.ajax({
+                url:'http://shop.juanpi.com/gsort',
+                data:{
+                    key:'pcshouye',
+                    type:1,
+                    machining:'default',
+                    page_url: '/',
+                    page: page,
+                    zhouyi_ids:'p1_c4_l4_0',
+                    rows:240,
+                },
+                dataType:'jsonp',
+                success: function(res){
+                    // console.log(res.list);
+                    
+                    let str = ''
+                    /*遍历数组*/
+                    res.list.forEach(item => {
+                        str += `
+                        <li id="${item.goods_id}" gtype="${item.gtype}" g_type="${item.type}" is_channel_index="" data-saletype="1" data-goodscode="${item.goods_code}" class="">
+                            <div class="list-good buy">
+                                <div class="good-pic">
+                                    <div class="pic-img">
+                                        <img src="${item.pic_url}" alt="${item.title}" style="display: inline;">
+                                    </div>
+                                </div>
+                                <div class="good-price">
+                                    <span class="price-current">
+                                        <em>￥</em>${item.cprice}
+                                    </span>
+                                    <span class="des-other">
+                                        <span class="price-old">
+                                            <em>￥</em>${item.oprice}
+                                        </span>
+                                    </span>
+                                </div>
+                                <h3 class="good-title">
+                                    <a href="./detail.html/${item.goods_id}" target="_blank">${item.title}</a>
+                                    <span class="sold">${item.residue}</span>
+                                </h3>
+                                <a class="y-like my-like" data-gid="130620696" data-saletype="1" data-goodscode="43571199" data-gtype="3" lkid="130620696" lks="1" gtype="3" title="加入收藏">
+                                    <i class="like-ico">
+                                        <span class="heart_left"></span>
+                                        <span class="heart_right"></span>
+                                    </i>
+                                </a>
+                                <div class="two-dime-box">
+                                    <a href="//www.juanpi.com/apps" target="_blank" class="two-iphone-n"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <div class="clear"></div>
+                        `
+                    })
+                    /*渲染到界面*/
+                    $('.index-main > .jrxp > .jrxpchild > ul').html(str);
+                    list = res.list;
+                    console.log(list.length);
+                    
+                }
+            })
+            
+        }
+
+
+        // function bindPagi(totalPage) {
+        // 关闭开关
+            $("#page").paging({
+                nowPage: 1, // 当前页码,默认为1
+                pageNum: 13, // 总页码
+                buttonNum: 7, //要展示的页码数量，默认为7，若小于5则为5
+                callback: function(num) { //回调函数,num为当前页码
+                    console.log(num);
+                    page = num;
+                    console.log(page);
+                    getList()
+                }
+            });
+        // }
+        
+
+        // let listl = [];
+        // getListl()
+        // function getListl(){
+        //     $.ajax({
+        //         url:'/lunbo',
+        //         dataType:'json',
+        //         success:function(rest){
+        //             console.log(rest);
+        //             listl = rest.zjb;
+        //             console.log(listl.text);
+                     
+        //         }
+        //     })
+        // }
+
+
+        /*委托事件实现详情页点击*/
+        $('.index-main > .jrxp >.jrxpchild > ul').on('click','li',function(){
+            // console.log($(this).attr('id'));
+            
+            let id = $(this).attr('id');
+            let data = null;
+            for (let i = 0; i < list.length; i++) {
+                if (list[i].goods_id === id) {
+                    data = list[i];
+                    break
+                }
+            }
+            console.log(data);
+            localStorage.setItem('goodsInfo', JSON.stringify(data));
+            window.location.href = './detail.html';
+        })
+        
+        // console.log(date);
+        
+        // function gsort_callback(res){
+        //     console.log(res);
+        // }
+    </script>
+    <script>
+        /*轮播图*/
         var mySwiper = new Swiper('.swiper-container', {
-            autoplay: true,//可选选项，自动滑动
+            autoplay: true,//
+            loop: true, //可选选项，自动滑动
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
         })
 
         //如果你初始化时没有定义Swiper实例，后面也可以通过Swiper的HTML元素来获取该实例
         new Swiper('.swiper-container')
         var mySwiper = document.querySelector('.swiper-container').swiper
         mySwiper.slideNext();
+        
     </script>
+    <!-- <script src="http://shop.juanpi.com/gsort?key=pcshouye&type=1&machining=default&dtype=JSONP&page_url=%2F&page=1&zhouyi_ids=p1_c4_l4_0&rows=240&callback=gsort_callback"></script> -->
 </body>
 </html>
